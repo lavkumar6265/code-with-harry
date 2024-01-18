@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Animation</title>
+    <style>
+        .container{
+            width: 80vw;
+            height: 80vh;
+            background-color: red;
+        }
+
+        .box{
+            width: 5vw;
+            height: 5vh;
+            background-color: blueviolet;
+            animation-name: animatin_1;
+            animation-duration: 1s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animatin_1 {
+            from{
+                
+            }
+            to{
+                transform: translateX(500px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>

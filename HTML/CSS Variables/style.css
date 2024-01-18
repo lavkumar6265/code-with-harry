@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color1:red;
+    --color2:green;
+    --color3:blue;
+    --height1:600px;
+    --width1:700px;
+    --font1:50px;
+}
+.box{
+    height:var(--height1); 
+    width:var(--width1);
+    font-size: var(--font1);
+    background-color: var(--color1);
+}

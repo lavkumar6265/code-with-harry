@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply Event with Ctrl Key</title>
+</head>
+<body>
+
+<script>
+  // Add an event listener for the 'keydown' event on the document
+  document.addEventListener('keydown', function(event) {
+    // Check if the pressed key is the "C" key and the Control key is pressed
+    if (event.key === 'c' && event.ctrlKey) {
+      // Perform your specific action for Ctrl + C
+      alert('Ctrl + C pressed!');
+    }
+  });
+</script>
+
+</body>
+</html>

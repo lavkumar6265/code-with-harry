@@ -1,0 +1,27 @@
+div{
+    margin: auto;
+    background-color: red;
+    width: 50vw;
+}
+
+span{
+    margin: auto;
+    background-color: red;
+    width: 1000px;
+}
+
+.box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 80vw; */
+    width: 80vw;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.vmin1{
+    background-color: red;
+    color: yellow;
+    font-size: 22px;
+    /* width: 100vmax; */
+}

@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Key Press Event</title>
+</head>
+<body>
+
+<script>
+  // Add an event listener for the 'keydown' event on the document
+  document.addEventListener('keydown', function(event) {
+    // Change the background color of the body when any key is pressed
+    document.body.style.backgroundColor = getRandomColor();
+  });
+
+  // Function to generate a random color
+  function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+</script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply Event to Specific Key</title>
+</head>
+<body>
+
+<script>
+  // Add an event listener for the 'keydown' event on the document
+  document.addEventListener('keydown', function(event) {
+    // Check if the pressed key is the "Enter" key
+    if (event.key === 'c' && event.ctrlKey) {
+      // Perform your specific action for the "Enter" key
+      alert('Enter key pressed!');
+    }
+    else{
+        alert('click enter key')
+    }
+  });
+</script>
+
+</body>
+</html>

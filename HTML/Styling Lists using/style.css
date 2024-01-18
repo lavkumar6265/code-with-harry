@@ -1,0 +1,9 @@
+nav ul li{
+    list-style: none;
+    list-style-type: "❤️";
+    background-color: aqua;
+
+    list-style-position: inside;
+    border: 2px solid red;
+    margin: 30px;
+}

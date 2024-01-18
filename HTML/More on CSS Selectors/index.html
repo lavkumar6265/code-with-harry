@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More on CSS Selectors</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+      }
+      /* .box:first-child {
+        background-color: red;
+      } 
+
+      .box::first-letter{
+        font-size: 30px;
+        color: blue;
+      }
+
+      .box::first-line{
+        color: red;
+      }*/
+
+      /* presant all boxes text color is red 
+      .boxes *{
+        color: red;
+      }
+
+     p ,.boxes,[data-color="primary"]{
+        font-size: 30px;
+        color: blue;
+     }
+     */
+
+
+    /*.container p:nth-child(even){
+        background-color: red;
+     }*/
+
+     ::selection{
+        background-color: chartreuse;
+        color: red;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tenetur
+        voluptas veritatis? Praesentium nesciunt perspiciatis at maiores!
+        Pariatur illum illo molestias sed, eligendi, dolorum ipsa atque quam
+        enim, error sequi?
+      </div>
+      <div class="box">ajju</div>
+      <div class="box">chandu</div>
+
+    </div>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p data-color="primary">Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+  </body>
+</html>

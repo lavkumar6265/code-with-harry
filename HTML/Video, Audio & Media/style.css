@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.songs{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+
+.song1{
+    width: 50%;
+}

@@ -1,0 +1,30 @@
+.container{
+    border: 2px solid black;
+    display: flex;
+    height: 80vh;
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+}
+
+.item{
+    height: 52px;
+    width: 52px;
+    border: 2px solid black;
+    margin: 4px;
+    background-color: blueviolet;
+}
+/* .order_1{
+    order: 1;
+}
+.order_87{
+    order: 87;
+} */
+
+ .item1{
+    flex-grow: 1;
+}
+/*
+.item2{
+    flex-grow: 6;
+} */

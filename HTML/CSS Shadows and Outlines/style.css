@@ -1,0 +1,20 @@
+.box{
+    border: 2px solid black;
+    margin-top: 300px;
+    padding: 50px;
+    /* box-shadow: -19px -12px 200px 50px #2EAB13; */
+}
+
+.para{
+    text-shadow: 2px 2px 4px #b11111;
+    font-size: 25px;
+}
+
+.out1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    outline: 2px solid blue;
+    /* border: 20px solid black; */
+    outline-offset: 15px;
+}

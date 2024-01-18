@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exersize 4</title>
+
+    <style>
+        :root{
+            --text_color:rgba(54, 47, 47, 0.906);
+            --bg_color_1:rgb(110, 153, 190);
+            --bg_color_2:rgb(21, 43, 63);
+            --bg_color_3:rgb(224, 232, 227);
+            --bg_color_4:rgb(26, 208, 71);
+            --padding_f:15px;
+            --font_size:20px;
+        }
+        
+        nav ul{
+            display: flex;
+            gap: 400px;
+            justify-content: center;
+            background-color: var(--bg_color_1);
+            border-radius: 20px;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        
+        }
+        nav ul li{
+            padding: var(--padding_f);
+            list-style: none;
+            font-size: var(--font_size);
+            transition: all 5s ease;
+            animation-name: example_2;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes example {
+            25%  {
+                background-color: var(--bg_color_2);
+
+            }
+            
+            50%  {
+                background-color: var(--bg_color_3);
+                color: rgb(68, 0, 214);
+            }
+
+            100% {background-color: var(--bg_color_4);}
+          }
+
+          
+          @keyframes example_2{
+            25%  {
+                color: rgb(231, 74, 74);
+            }
+            
+            50%  {
+                color: rgb(68, 0, 214);
+            }
+
+            100% {
+                color: rgb(250, 5, 250);
+            }
+          }
+          
+        nav ul li:hover{
+            color: bisque;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Footer</li>
+        </ul>
+    </nav>
+</body>
+</html>

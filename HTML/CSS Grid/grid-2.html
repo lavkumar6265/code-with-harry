@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            margin: 0 auto;
+            height: 70vh;
+            width: 80vw;
+            display: grid;
+            border: 2px solid black;
+            /*grid-template-columns: 1fr 1fr 1fr;*/
+            grid-template-columns: repeat(4,1fr);
+            grid-template-columns: repeat(4,minmax(100px,1fr));
+            grid-template-columns: repeat(4,40px);
+            column-gap: 40px;
+            row-gap: 30px;
+            /*grid-template-areas: "nav nav nav"
+                        "side artical artical"
+                        "footer footer footer"
+            ; 
+            justify-items: center;
+            align-items: center;*/
+
+        }
+
+        .item{
+            height: 55px;
+            width: 55px;
+            border: 3px solid red;
+        }
+        .item1{
+            /*
+            align-self: center;
+            justify-self: center;*/
+        }
+        /*
+        .item2{
+            grid-area: side;
+        }
+
+        .item3{
+            grid-area: artical;
+        }
+
+        .item4{
+            grid-area: footer;
+        }*/
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="item item1">navbar</div>
+            <div class="item item2">sidebar</div>
+            <div class="item item3">Artical</div>
+            <div class="item item4">footer</div>
+        </div>    
+</body>
+</html>

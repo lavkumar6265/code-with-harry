@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS filter</title>
+    <style>
+        .container{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(141, 180, 215);
+        }
+
+        img{
+            /*filter: grayscale(100%);*/
+            filter: drop-shadow(10px 10px 20px red);
+            filter: contrast(100%);
+            filter: invert(30%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://th.bing.com/th/id/OIP.1d6tBbNiJTFQNEK_k0sSjQHaFj?rs=1&pid=ImgDetMain" alt="">
+    </div>
+</body>
+</html>
